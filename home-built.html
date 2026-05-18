@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BlackCivicEquity.org</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="BlackCivicEquity.org home">
+        <svg viewBox="0 0 42 42" aria-hidden="true"><path d="M6 35h30v4H6zm3-6h24v4H9zM12 14h5v13h-5zm8 0h5v13h-5zm8 0h5v13h-5zM5 10 21 3l16 7v3H5z"/></svg>
+        <span>BlackCivicEquity<span>.org</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation">☰</button>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#voting-rights">Voting Rights</a>
+        <a href="#maternal-health">Maternal Health</a>
+        <a href="#systemic-inequality">Systemic Inequality</a>
+        <a href="#data-reports">Data &amp; Reports</a>
+        <a href="#stories">Stories</a>
+        <a href="#take-action">Take Action</a>
+        <a href="#about">About</a>
+      </nav>
+      <button class="search-button" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-label="Black civic equity advocacy">
+      <div class="hero-bg" role="img" aria-label="Black community members standing for civic participation and voting rights"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1>Truth. <span>Equity.</span> Action.</h1>
+        <p>Exposing injustice. Advancing equity.<br>Building power for Black communities.</p>
+        <div class="hero-actions">
+          <a class="button gold" href="#issues">Explore the Issues <span>→</span></a>
+          <a class="button outline" href="#take-action">Take Action <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="issues" class="container issue-grid" aria-label="Issue overview">
+      <article class="issue-card navy"><span class="issue-icon"><svg viewBox="0 0 32 32"><path d="M8 15h16l-2 10H6l2-10Z"/><path d="m10 15 9-8 4 5"/><path d="M11 20h10"/></svg></span><h2>Voter Suppression</h2><p>Black voters are 2–3x more likely<br>to be denied or challenged at the<br>ballot box.</p><small>— Brennan Center</small><b aria-hidden="true">ⓘ</b></article>
+      <article class="issue-card teal"><span class="issue-icon"><svg viewBox="0 0 32 32"><path d="M16 25s-9-5.4-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.6-9 12-9 12Z"/><path d="M8 17h5l2-4 3 7 2-3h4"/></svg></span><h2>Maternal Mortality</h2><p>Black women are 2.6x more<br>likely to die from pregnancy-<br>related causes.</p><small>— CDC (2023)</small><b aria-hidden="true">ⓘ</b></article>
+      <article class="issue-card gold"><span class="issue-icon"><svg viewBox="0 0 32 32"><path d="M16 5v22"/><path d="M21 10c-1.2-1.4-3.2-2-5-2-3 0-5 1.5-5 3.8 0 5.2 10 2.4 10 7.7 0 2.4-2.3 4-5.4 4-2.2 0-4.2-.8-5.6-2.4"/></svg></span><h2>Wealth Inequality</h2><p>The median wealth of Black<br>households is about 1/10th<br>that of white households.</p><small>— Federal Reserve (2022)</small><b aria-hidden="true">ⓘ</b></article>
+      <article class="issue-card brown"><span class="issue-icon"><svg viewBox="0 0 32 32"><path d="M16 7v20"/><path d="M8 11h16"/><path d="M10 11 6 20h8l-4-9Z"/><path d="M22 11l-4 9h8l-4-9Z"/><path d="M11 27h10"/></svg></span><h2>Criminal Justice Inequity</h2><p>Black Americans are 5x more<br>likely to be incarcerated than<br>white Americans.</p><small>— Sentencing Project</small><b aria-hidden="true">ⓘ</b></article>
+    </section>
+
+    <section class="container feature-grid">
+      <article id="maternal-health" class="maternal-card">
+        <div class="feature-copy">
+          <p class="eyebrow">Maternal Health Disparities</p>
+          <h2>A Crisis We Can<br>No Longer Ignore</h2>
+          <p>Black women face preventable risks at every stage—from limited access to quality care to systemic bias in treatment.</p>
+          <a class="button teal-btn" href="#maternal-health">Learn More <span>→</span></a>
+        </div>
+        <div class="chart" aria-label="Maternal mortality ratio bar chart">
+          <h3>Maternal Mortality Ratio</h3>
+          <p>Deaths per 100,000 Live Births (2020–2022)</p>
+          <div class="bars">
+            <span>60</span><span>40</span><span>20</span><span>0</span>
+            <div class="bar black" style="height:78%"><strong>69.9</strong><em>Black Women</em></div>
+            <div class="bar white" style="height:36%"><strong>26.6</strong><em>White Women</em></div>
+          </div>
+          <small>Source: <b>CDC</b> – Pregnancy Mortality Surveillance System</small>
+        </div>
+        <img src="assets/mother.jpg" alt="Black mother holding her baby" class="mother-img">
+      </article>
+
+      <article id="voting-rights" class="voting-card">
+        <div class="feature-copy">
+          <p class="eyebrow">Voting Rights Under Attack</p>
+          <h2>Access Should<br>Never Be a<br>Privilege</h2>
+          <p>Laws across the country continue to restrict, dilute, and disregard the power of Black voters.</p>
+          <a class="button navy-btn" href="#voting-rights">View Voting Rights Map <span>→</span></a>
+        </div>
+        <div class="map-panel">
+          <h3>Recent Voting Restrictions</h3>
+          <p>Since 2021</p>
+          <img src="assets/map.jpg" alt="Stylized United States voting restrictions map">
+          <div class="legend">
+            <span><i class="red"></i>10+ Restrictions</span><span><i class="orange"></i>6–9 Restrictions</span><span><i class="gold-dot"></i>1–5 Restrictions</span><span><i class="teal-dot"></i>No New Restrictions</span><span><i class="gray"></i>No Data</span>
+          </div>
+          <small>Source: Brennan Center for Justice</small>
+        </div>
+      </article>
+    </section>
+
+    <section id="systemic-inequality" class="container systems-section">
+      <img src="assets/systems-illustration.jpg" alt="Editorial profile illustration showing housing, schools, and civic systems">
+      <div class="systems-copy">
+        <p class="eyebrow">Understanding Systemic Inequality</p>
+        <h2>Systems, Not Just Individual Choices,<br>Create Outcomes.</h2>
+        <p>Systemic inequality is built into the policies, institutions, and practices that shape our daily lives. White privilege refers to the unearned advantages that white people receive in a society structured to favor them—often invisibly and without intent. Recognizing these truths is the first step toward building a more just and equitable future.</p>
+        <div class="mini-grid">
+          <div><span>🎓</span><h3>Education</h3><p>School funding, discipline policies, and access to resources are inequitable.</p></div>
+          <div><span>⌂</span><h3>Housing</h3><p>Redlining and housing discrimination created generational gaps.</p></div>
+          <div><span>▣</span><h3>Employment</h3><p>Hiring, pay, and promotion practices continue to perpetuate racial disparities.</p></div>
+          <div><span>⚖</span><h3>The Justice System</h3><p>Bias at every stage leads to unfair treatment and disproportionate outcomes.</p></div>
+        </div>
+      </div>
+      <aside class="quote-panel">
+        <img src="assets/quote-crowd.jpg" alt="" aria-hidden="true">
+        <span>“</span>
+        <blockquote>“Until the system changes,<br>we all carry the cost.<br>Justice anywhere<br>depends on justice<br>everywhere.”</blockquote>
+        <cite>— Dr. Martin Luther King, Jr.</cite>
+      </aside>
+    </section>
+
+    <section id="stories" class="container stories-section">
+      <div class="section-head">
+        <div><p class="eyebrow">Voices of Our Community</p><h2>Real Stories. Real Strength.</h2></div>
+        <a href="#stories">Read More Stories <span>→</span></a>
+      </div>
+      <div class="stories-row">
+        <button aria-label="Previous story" class="carousel prev">‹</button>
+        <article class="story-card"><img src="assets/story-jasmine.jpg" alt="Portrait of Jasmine R."><p>“I almost didn’t make it. Black mothers deserve better care, better support, and the right to live.”</p><small>— Jasmine R.<br>Mother &amp; Advocate</small></article>
+        <article class="story-card"><img src="assets/story-marcus.jpg" alt="Portrait of Marcus T."><p>“They tried to silence my vote. But our voices are stronger together.”</p><small>— Marcus T.<br>Community Organizer</small></article>
+        <article class="story-card"><img src="assets/story-alana.jpg" alt="Portrait of Alana B."><p>“I’m fighting for a future where my students have equal chances.”</p><small>— Alana B.<br>Teacher</small></article>
+        <article class="story-card"><img src="assets/story-thomas.jpg" alt="Portrait of Thomas L."><p>“Change happens when we stay informed and refuse to be indifferent.”</p><small>— Thomas L.<br>Retired Educator</small></article>
+        <button aria-label="Next story" class="carousel next">›</button>
+      </div>
+    </section>
+
+    <section id="take-action" class="container action-band">
+      <img src="assets/action-community.jpg" alt="" aria-hidden="true">
+      <div class="action-head"><p class="eyebrow">Take Action Today</p><h2>Small Steps. Big Change.</h2></div>
+      <div class="action-grid">
+        <article class="action-card a-teal"><span><svg viewBox="0 0 48 48"><path d="M8 26h8l19-11v26L16 30H8z"/><path d="M16 30v10h7"/><path d="M38 22l5-4M40 29h6M38 36l5 4"/></svg></span><h3>Sign a Petition</h3><p>Stand up for policies that protect our rights and our communities.</p><a href="#take-action">Sign Now <b>→</b></a></article>
+        <article class="action-card a-gold"><span><svg viewBox="0 0 48 48"><path d="M24 39s-15-9-15-21a8 8 0 0 1 15-4 8 8 0 0 1 15 4c0 12-15 21-15 21Z"/></svg></span><h3>Donate</h3><p>Your support fuels research, education, and advocacy.</p><a href="#take-action">Donate Now <b>→</b></a></article>
+        <article class="action-card a-blue"><span><svg viewBox="0 0 48 48"><path d="M8 12h14c4 0 6 2 6 6v22c0-4-2-6-6-6H8z"/><path d="M40 12H28v28c0-4 2-6 6-6h6z"/></svg></span><h3>Learn</h3><p>Explore data, reports, and tools to stay informed and empowered.</p><a href="#data-reports">Explore Resources <b>→</b></a></article>
+        <article class="action-card a-brown"><span><svg viewBox="0 0 48 48"><path d="M18 21a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"/><path d="M33 23a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"/><path d="M6 39c1-8 5-12 12-12s11 4 12 12"/><path d="M27 31c2-3 5-4 8-4 5 0 8 3 9 10"/></svg></span><h3>Volunteer</h3><p>Join our movement in your community and make an impact.</p><a href="#take-action">Get Involved <b>→</b></a></article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="about" class="site-footer">
+    <div class="container footer-grid">
+      <section><h2>Our Mission</h2><p>BlackCivicEquity.org is dedicated to exposing injustice, educating the public, and advancing policies that create true equity and opportunity for Black communities.</p><strong>Knowledge. Power. Justice.</strong></section>
+      <section><h2>Stay Informed</h2><p>Get updates on the issues, events, and actions that matter most.</p><form><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Email address"><button>Subscribe</button></form></section>
+      <section><h2>Explore</h2><a href="#data-reports">Data &amp; Reports</a><a href="#policy">Policy Center</a><a href="#campaigns">Campaigns</a><a href="#events">Events</a><a href="#faq">Frequently Asked Questions</a></section>
+      <section><h2>Sources &amp; Transparency</h2><p>We are committed to facts and accountability. All data is sourced from trusted organizations.</p><a class="gold-link" href="#sources">View Our Sources →</a></section>
+      <section><h2>Follow Us</h2><div class="socials"><a href="#facebook" aria-label="Facebook">f</a><a href="#x" aria-label="X">𝕏</a><a href="#instagram" aria-label="Instagram">◎</a><a href="#youtube" aria-label="YouTube">▶</a></div><div class="badge"><b>GUIDESTAR</b><span>PLATINUM<br>PARTICIPANT</span></div></section>
+    </div>
+    <div class="footer-bottom">© 2024 BlackCivicEquity.org <span>|</span> All Rights Reserved <span>|</span> Privacy Policy <span>|</span> Terms of Use</div>
+  </footer>
+</body>
+</html>

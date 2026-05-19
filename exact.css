@@ -1,13 +1,14 @@
 :root{--page-width:1055px;--bg:#f7f3ea}
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%;background:var(--bg);font-family:Arial,sans-serif}
-.comp-shell{position:relative;width:min(100vw,var(--page-width));margin:0 auto;background:var(--bg)}
+.comp-shell{position:relative;width:100%;margin:0;background:var(--bg);overflow:hidden}
 .comp-shell img{display:block;width:100%;height:auto}
 .comp-brand,.comp-nav a{position:absolute;top:0;height:58px;display:block;color:transparent;font-size:0;overflow:hidden}
 .comp-brand{left:0;width:27%}
 .comp-nav{position:absolute;top:0;left:28%;right:5.5%;height:58px;display:grid;grid-template-columns:.78fr 1.12fr 1.35fr 1.65fr 1.3fr .85fr 1.05fr .8fr .42fr}
-.comp-nav a{position:static;width:auto;height:58px}
-.comp-nav a:focus-visible,.comp-brand:focus-visible{outline:2px solid #f4b63e;outline-offset:-5px;background:rgba(244,182,62,.12)}
+.comp-nav a{position:static;width:auto;height:58px;cursor:pointer}
+.hotspot{position:absolute;display:block;color:transparent;font-size:0;overflow:hidden;border-radius:8px;cursor:pointer}
+.hotspot:focus-visible,.comp-nav a:focus-visible,.comp-brand:focus-visible{outline:2px solid #f4b63e;outline-offset:-3px;background:rgba(244,182,62,.12)}
 @media (max-width:700px){
   .comp-brand,.comp-nav{height:44px}
   .comp-nav{left:0;right:0;top:44px;height:38px;background:rgba(3,20,35,.92);grid-template-columns:repeat(4,1fr)}
